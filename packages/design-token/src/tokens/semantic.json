@@ -49,11 +49,11 @@
     "surface": {
       "base": {
         "$type": "color",
-        "$value": "{color.gray.10}"
+        "$value": "{color.gray.0}"
       },
       "subtle": {
         "$type": "color",
-        "$value": "{color.gray.50}"
+        "$value": "{color.gray.25}"
       }
     },
     "status": {
@@ -108,7 +108,7 @@
         "$value": {
           "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.400}",
-          "fontSize": "{fontSize.12}",
+          "fontSize": "{fontSize.14}",
           "lineHeight": "{lineHeight.normal}",
           "letterSpacing": "{letterSpacing.wide}"
         }
@@ -118,7 +118,7 @@
         "$value": {
           "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.400}",
-          "fontSize": "{fontSize.14}",
+          "fontSize": "{fontSize.16}",
           "lineHeight": "{lineHeight.normal}",
           "letterSpacing": "{letterSpacing.wide}"
         }
