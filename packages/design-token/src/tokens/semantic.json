@@ -3,11 +3,11 @@
     "accent": {
       "secondary": {
         "$type": "color",
-        "$value": "{color.blue.500}"
+        "$value": "{color.indigo.600}"
       },
       "primary": {
         "$type": "color",
-        "$value": "{color.blue.600}"
+        "$value": "{color.indigo.500}"
       }
     },
     "text": {
@@ -35,7 +35,7 @@
     "border": {
       "focus": {
         "$type": "color",
-        "$value": "{color.blue.600}"
+        "$value": "{color.indigo.500}"
       },
       "default": {
         "$type": "color",
@@ -108,7 +108,7 @@
         "$value": {
           "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.400}",
-          "fontSize": "{fontSize.14}",
+          "fontSize": "{fontSize.12}",
           "lineHeight": "{lineHeight.normal}",
           "letterSpacing": "{letterSpacing.wide}"
         }
@@ -118,7 +118,7 @@
         "$value": {
           "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.400}",
-          "fontSize": "{fontSize.16}",
+          "fontSize": "{fontSize.14}",
           "lineHeight": "{lineHeight.normal}",
           "letterSpacing": "{letterSpacing.wide}"
         }
