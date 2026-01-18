@@ -104,7 +104,7 @@
       "md": {
         "paddingInline": {
           "$type": "spacing",
-          "$value": "{spacing.stack.sm}"
+          "$value": "{spacing.stack.md}"
         },
         "paddingBlock": {
           "$type": "spacing",
@@ -116,7 +116,7 @@
       "default": {
         "bg": {
           "$type": "color",
-          "$value": "{color.accent.primary}"
+          "$value": "{color.surface.base}"
         },
         "fg": {
           "$type": "color",
