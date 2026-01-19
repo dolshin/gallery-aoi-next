@@ -46,44 +46,34 @@
         }
       }
     },
-    "text": {
-      "$type": "typography",
-      "$value": "{typography.inline.md}"
-    },
     "sizing": {
       "md": {
         "height": {
           "$type": "sizing",
-          "$value": "{sizing.control.md}"
-        }
-      },
-      "lg": {
-        "height": {
-          "$type": "sizing",
-          "$value": "{sizing.control.md}"
+          "$value": "{sizing.60}"
         }
       }
     },
     "spacing": {
       "md": {
-        "paddingInline": {
-          "$type": "spacing",
-          "$value": "{spacing.stack.sm}"
-        },
         "paddingBlock": {
           "$type": "spacing",
-          "$value": "{spacing.stack.xs}"
-        }
-      },
-      "lg": {
+          "$value": "{spacing.stack.md}"
+        },
         "paddingInline": {
           "$type": "spacing",
-          "$value": "{spacing.stack.sm}"
-        },
-        "paddingBlock": {
-          "$type": "spacing",
-          "$value": "{spacing.stack.xs}"
+          "$value": "{spacing.72}"
         }
+      }
+    },
+    "text": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.sans}",
+        "fontWeight": "{fontWeight.500}",
+        "fontSize": "{fontSize.14}",
+        "lineHeight": "{lineHeight.normal}",
+        "letterSpacing": "{letterSpacing.wider}"
       }
     }
   },
@@ -104,7 +94,7 @@
       "md": {
         "paddingInline": {
           "$type": "spacing",
-          "$value": "{spacing.stack.md}"
+          "$value": "{spacing.stack.sm}"
         },
         "paddingBlock": {
           "$type": "spacing",

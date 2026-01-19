@@ -285,6 +285,10 @@
       "$type": "letterSpacing",
       "$value": "0.05em"
     },
+    "wider": {
+      "$type": "letterSpacing",
+      "$value": "0.075em"
+    },
     "normal": {
       "$type": "letterSpacing",
       "$value": "0"
@@ -433,6 +437,10 @@
       "$type": "spacing",
       "$value": "64"
     },
+    "72": {
+      "$type": "spacing",
+      "$value": "72"
+    },
     "80": {
       "$type": "spacing",
       "$value": "80"
@@ -529,6 +537,10 @@
     "48": {
       "$type": "sizing",
       "$value": "48"
+    },
+    "60": {
+      "$type": "sizing",
+      "$value": "60"
     }
   }
 }
