@@ -75,6 +75,12 @@
         "lineHeight": "{lineHeight.normal}",
         "letterSpacing": "{letterSpacing.wider}"
       }
+    },
+    "content": {
+      "gap": {
+        "$type": "spacing",
+        "$value": "{spacing.8}"
+      }
     }
   },
   "input": {
