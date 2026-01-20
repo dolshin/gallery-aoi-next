@@ -538,6 +538,10 @@
       "$type": "sizing",
       "$value": "48"
     },
+    "56": {
+      "$type": "sizing",
+      "$value": "56"
+    },
     "60": {
       "$type": "sizing",
       "$value": "60"
