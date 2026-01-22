@@ -1,0 +1,36 @@
+{
+  "name": "@dolshin/forms",
+  "version": "0.0.0",
+  "description": "This package provides form components built on top of the dolshin UI library.",
+  "type": "module",
+  "private": true,
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@dolshin/ui": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^ 19.0.0",
+    "react-dom": "^ 19.0.0",
+    "react-hook-form": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "react-hook-form": "^7.69.0",
+    "typescript": "^5.9.3"
+  }
+}
