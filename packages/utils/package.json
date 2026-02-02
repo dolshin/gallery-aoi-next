@@ -1,0 +1,22 @@
+{
+  "name": "@aoi/utils",
+  "version": "0.0.0",
+  "description": "This package contains utility functions and helpers for Gallery AOI projects.",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}
