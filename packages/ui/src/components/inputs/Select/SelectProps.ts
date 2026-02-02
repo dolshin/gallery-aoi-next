@@ -25,11 +25,12 @@ export type SelectProps<
    */
   items: SelectItem<Value>[];
   /**
-   * フォームデータ送信用・RHF登録のための必須属性
+   * フォームデータ送信用・RHF登録のための属性
    */
-  name: string;
+  name?: string;
   /**
-   *  プレースホルダー（未選択時に表示されるラベル） */
+   *  プレースホルダー（未選択時に表示されるラベル）
+   */
   placeholder?: ReactNode;
   /**
    *  入力値（Controlled Component 用） */
@@ -44,6 +45,20 @@ export type SelectProps<
       | SelectValueType<Value, Multiple>
       | (Multiple extends true ? never : null),
   ) => void;
+
+  /**
+   *  デフォルトで開いているかどうか(Uncontrolled Component 用)
+   */
+  defaultOpen?: boolean;
+  /**
+   * 開閉状態を制御するかどうか(Controlled Component 用)
+   */
+  open?: boolean;
+
+  /**
+   * 開閉状態が変化したときに呼ばれるイベント
+   */
+  onOpenChange?: (open: boolean) => void;
   /**
    *  object value の場合に推奨（hidden input 用の value 文字列化）
    */

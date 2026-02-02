@@ -6,13 +6,17 @@
   "private": true,
   "main": "index.js",
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "default": "./dist/index.js"
+    "./rhf": {
+      "types": "./dist/components/react-hook-form/index.d.ts",
+      "import": "./dist/components/react-hook-form/index.js",
+      "default": "./dist/components/react-hook-form/index.js"
+    },
+    "./conform": {
+      "types": "./dist/components/conform/index.d.ts",
+      "import": "./dist/components/conform/index.js",
+      "default": "./dist/components/conform/index.js"
     }
   },
-  "types": "./dist/index.d.ts",
   "sideEffects": false,
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
@@ -24,9 +28,11 @@
   "peerDependencies": {
     "react": "^ 19.0.0",
     "react-dom": "^ 19.0.0",
-    "react-hook-form": "^7.0.0"
+    "react-hook-form": "^7.0.0",
+    "@conform-to/react": "~1.15.1"
   },
   "devDependencies": {
+    "@conform-to/react": "~1.15.1",
     "@types/node": "^25.0.3",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
