@@ -26,11 +26,11 @@ export type TextAreaProps = {
   /** 読み取り専用（入力不可だが選択は可能） */
   readOnly?: boolean;
 
-  /** 初期の表示行数 */
-  minRows?: number;
+  /** 列数 */
+  cols?: number;
 
-  /** 最大の表示行数 */
-  maxRows?: number;
+  /** 行数 */
+  rows?: number;
 
   /** リサイズ可否の設定（CSS の resize プロパティに対応） */
   resize?: 'none' | 'vertical' | 'horizontal' | 'both';
