@@ -1,7 +1,7 @@
 /**
  * 本番環境かどうか
  */
-const isProd = process.env.NODE_ENV === 'production';
+const isProd = process.env['NODE_ENV'] === 'production';
 
 /**
  * ログ出力の共通インターフェース
