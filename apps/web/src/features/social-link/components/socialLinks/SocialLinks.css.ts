@@ -1,4 +1,4 @@
-import { md } from '@styles/mediaQuery';
+import { md } from '@/styles/mediaQuery';
 import { style } from '@vanilla-extract/css';
 
 /**

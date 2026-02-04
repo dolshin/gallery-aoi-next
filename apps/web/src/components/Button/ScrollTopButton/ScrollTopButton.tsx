@@ -1,5 +1,5 @@
 'use client';
-import { useScroll } from '@lib/hooks/useScroll';
+import { useScroll } from '@/lib/hooks/useScroll';
 import { ChevronUp } from '@dolshin/icons/ui';
 import * as styles from './ScrollTopButton.css';
 import clsx from 'clsx';
