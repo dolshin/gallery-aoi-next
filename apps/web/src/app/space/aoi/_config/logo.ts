@@ -1,0 +1,9 @@
+import type { LogoProps } from '@/features/logo/Logo';
+import { SpaceRoutes } from '../../_config/routes';
+import { AoiAssets } from './asset';
+
+export const AoiLogo: LogoProps = {
+  src: AoiAssets.logo,
+  alt: 'AOIロゴ',
+  href: SpaceRoutes.aoi,
+};
