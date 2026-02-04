@@ -1,6 +1,6 @@
 import * as styles from './PrivacyPolicy.css';
 import type { PrivacyPolicyProps } from './PrivacyPolicyProps';
-import { PageLayout } from '@/features/layouts/page/PageLayout';
+import { PageLayout } from '@/features/layouts/components/page/PageLayout';
 import { LinkButton } from '@/components/Button';
 
 /**
