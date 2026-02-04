@@ -1,1 +1,0 @@
-export { GalleryAoiGroupAccessMap } from './GalleryAoiGroupAccessMap';
