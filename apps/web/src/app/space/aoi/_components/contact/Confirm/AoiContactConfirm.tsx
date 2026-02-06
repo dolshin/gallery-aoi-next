@@ -68,8 +68,8 @@ export function AoiContactConfirm({ cookieValue }: AoiContactConfirmProps) {
         >
           戻る
         </Button>
-        <Button type="submit" disabled={pending}>
-          {pending ? '送信中...' : '送信する'}
+        <Button type="submit" loading={pending} loadingPosition="left">
+          送信する
         </Button>
       </Stack>
       {state?.message && (
