@@ -1,5 +1,5 @@
 'use client';
-import { Pagination } from '@/components/Pagination/Pagination';
+import { Pagination } from '@dolshin/ui';
 import { EventList } from '../list';
 import type { PaginatedEventListProps } from './PaginatedEventListProps';
 import { usePaginatedEventList } from './usePaginatedEventList';
