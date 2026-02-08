@@ -1,0 +1,1 @@
+export { AoiContactThanksPageContent } from './AoiContactThanksPageContent';

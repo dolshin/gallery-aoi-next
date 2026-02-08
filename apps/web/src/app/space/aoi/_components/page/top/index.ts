@@ -1,0 +1,1 @@
+export { AoiHomeContents } from './AoiHomeContents';

@@ -1,0 +1,1 @@
+export { confirmCookieStore } from './confirmCookieStore';

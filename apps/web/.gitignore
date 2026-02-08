@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+pnpm-debug.log*
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.pem
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

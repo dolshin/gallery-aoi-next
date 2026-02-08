@@ -1,0 +1,1 @@
+export { AoiFaqSection } from './AoiFaqSection';
