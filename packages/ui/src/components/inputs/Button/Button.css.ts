@@ -1,8 +1,10 @@
+import { style } from '@vanilla-extract/css';
 import { recipe } from '@vanilla-extract/recipes';
 import { vars } from '@dolshin/theme-contract';
 
 export const buttonRecipe = recipe({
   base: {
+    position: 'relative',
     display: 'inline-flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -74,4 +76,87 @@ export const buttonRecipe = recipe({
     variant: 'primary',
     size: 'md',
   },
+});
+
+/**
+ * コンテンツ
+ */
+export const content = style({
+  display: 'inline-flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: vars.button.content.gap,
+});
+/**
+ * アイコン
+ */
+export const icon = style({
+  display: 'inline-flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  width: '1em',
+  selectors: {
+    '[data-loading="true"] &': {
+      opacity: 0,
+    },
+  },
+});
+
+/**
+ * ボタンラベル
+ */
+export const buttonLabel = style({
+  whiteSpace: 'nowrap',
+  selectors: {
+    '[data-loading="true"] &': {
+      color: vars.button.color.primary.disabled.fg,
+    },
+    '[data-loading="true"][data-loading-position="center"] &': {
+      color: 'transparent',
+    },
+  },
+});
+
+/**
+ * ローディングラッパー
+ */
+export const loadingWrapper = style({
+  display: 'contents',
+});
+
+/**
+ * ローディングインジケーター
+ */
+export const loadingIndicator = style({
+  position: 'absolute',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+
+  selectors: {
+    // 左
+    '[data-loading="true"][data-loading-position="left"] &': {
+      left: vars.button.spacing.md.paddingInline,
+    },
+
+    // 中央
+    '[data-loading="true"][data-loading-position="center"] &': {
+      left: '50%',
+      transform: 'translateX(-50%)',
+    },
+
+    // 右
+    '[data-loading="true"][data-loading-position="right"] &': {
+      right: vars.button.spacing.md.paddingInline,
+    },
+  },
+});
+
+/**
+ * アイコンプレースホルダー
+ */
+export const iconPlaceholder = style({
+  display: 'inline-block',
+  width: '1em',
+  height: '1em',
 });
