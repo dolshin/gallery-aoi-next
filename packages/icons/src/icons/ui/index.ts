@@ -6,3 +6,4 @@ export { ChevronUp } from './ChevronUp';
 export { ChevronDown } from './ChevronDown';
 export { ParkingSquare } from './ParkingSquare';
 export { Phone } from './Phone';
+export * from './Spinner';
