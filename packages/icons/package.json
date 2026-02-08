@@ -6,19 +6,21 @@
   "private": true,
   "exports": {
     "./brands": {
-      "types": "./dist/icons/brands/index.d.ts",
-      "import": "./dist/icons/brands/index.js",
-      "default": "./dist/icons/brands/index.js"
+      "types": "./dist/brands/index.d.ts",
+      "import": "./dist/brands/index.js",
+      "default": "./dist/brands/index.js"
     },
     "./ui": {
-      "types": "./dist/icons/ui/index.d.ts",
-      "import": "./dist/icons/ui/index.js",
-      "default": "./dist/icons/ui/index.js"
+      "types": "./dist/ui/index.d.ts",
+      "import": "./dist/ui/index.js",
+      "default": "./dist/ui/index.js"
     }
   },
-  "sideEffects": false,
+  "sideEffects": [
+    "**/*.css"
+  ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json"
+    "build": "tsup"
   },
   "peerDependencies": {
     "react": "^19.0.0 ",
@@ -32,6 +34,7 @@
   "devDependencies": {
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "tsup": "^8.5.1",
     "typescript": "^5.9.3"
   }
 }
