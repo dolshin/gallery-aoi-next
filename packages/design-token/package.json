@@ -14,8 +14,9 @@
   "main": "./dist/defaultThemeValues.js",
   "types": "./dist/defaultThemeValues.d.ts",
   "scripts": {
+    "build": "pnpm run build:sd && pnpm run build:ts",
     "build:ts": "tsc -p tsconfig.build.json",
-    "build": "npx tsx src/sd/build.ts"
+    "build:sd": "npx tsx src/sd/build.ts"
   },
   "devDependencies": {
     "@types/node": "^25.0.8",
