@@ -2,7 +2,7 @@
 import { Select as BaseSelect } from '@base-ui/react/select';
 import * as styles from './Select.css';
 import type { SelectProps } from './SelectProps';
-import { ChevronDown } from '@dolshin/icons';
+import { ChevronDown } from '@dolshin/icons/ui';
 
 /**
  * セレクトコンポーネント
