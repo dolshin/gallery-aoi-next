@@ -18,6 +18,7 @@
     "@dolshin/icons": "workspace:*",
     "@dolshin/theme-contract": "workspace:*",
     "@dolshin/ui": "workspace:*",
+    "@fontsource-variable/montserrat": "^5.2.8",
     "@vanilla-extract/dynamic": "^2.1.5",
     "clsx": "^2.1.1",
     "dotenv": "^16.5.0",
@@ -29,6 +30,7 @@
     "react-slick": "^0.30.3",
     "sanitize.css": "^13.0.0",
     "server-only": "^0.0.1",
+    "slick-carousel": "^1.8.1",
     "zod": "^3.25.64"
   },
   "devDependencies": {
