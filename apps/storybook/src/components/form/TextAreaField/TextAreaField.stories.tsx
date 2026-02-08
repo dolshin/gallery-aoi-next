@@ -15,8 +15,8 @@ const meta = {
     error: false,
     errorText: '',
     touched: false,
-    minRows: 4,
-    maxRows: 8,
+    rows: 8,
+    cols: 40,
     value: '',
   },
   argTypes: {
@@ -28,8 +28,8 @@ const meta = {
     disabled: { control: 'boolean' },
     error: { control: 'boolean' },
     touched: { control: 'boolean' },
-    minRows: { control: 'number' },
-    maxRows: { control: 'number' },
+    rows: { control: 'number' },
+    cols: { control: 'number' },
     value: { control: 'text' },
   },
   render: (args) => (
