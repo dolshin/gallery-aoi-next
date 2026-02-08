@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { Button, type ButtonProps } from '@dolshin/ui';
+import { ChevronRight } from '@dolshin/icons/ui';
 
 const meta = {
   title: 'components/inputs/Button',
@@ -7,6 +8,12 @@ const meta = {
   tags: ['autodocs'],
   parameters: {
     layout: 'centered',
+  },
+  args: {
+    variant: 'primary',
+    size: 'md',
+    loading: false,
+    children: 'ボタン',
   },
   argTypes: {
     variant: {
@@ -20,6 +27,7 @@ const meta = {
     loading: {
       control: 'boolean',
     },
+    children: { control: 'text' },
   },
 } satisfies Meta<ButtonProps>;
 
@@ -29,45 +37,30 @@ type Story = StoryObj<typeof meta>;
 //
 // ▼ 基本
 //
-export const Default: Story = {
-  args: {
-    children: 'ボタン',
-    variant: 'primary',
-    size: 'md',
-  },
-};
+export const Default: Story = {};
 
-//
-// ▼ バリアント一覧
-//
-export const Variants: Story = {
-  render: () => (
-    <div style={{ display: 'flex', gap: '0.75rem' }}>
-      <Button variant="primary">ボタン</Button>
-    </div>
-  ),
-};
-
-//
-// ▼ サイズ一覧
-//
-export const Sizes: Story = {
-  render: () => (
-    <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'end' }}>
-      <Button size="md">ボタン</Button>
-    </div>
-  ),
-};
-
-//
-// ▼ loading
-//
 export const Loading: Story = {
   args: {
-    children: '送信中...',
+    children: '保存する',
     loading: true,
     variant: 'primary',
   },
+};
+
+export const AllLoading: Story = {
+  render: () => (
+    <div style={{ display: 'flex', gap: 16 }}>
+      <Button loading loadingPosition="left" leftIcon={<ChevronRight />}>
+        保存する
+      </Button>
+      <Button loading loadingPosition="center">
+        保存する
+      </Button>
+      <Button loading loadingPosition="right" rightIcon={<ChevronRight />}>
+        保存する
+      </Button>
+    </div>
+  ),
 };
 
 //
