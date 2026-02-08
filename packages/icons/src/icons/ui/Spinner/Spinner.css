@@ -1,0 +1,9 @@
+@keyframes ui-spinner-rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ui-spinner {
+  animation: ui-spinner-rotate 0.8s linear infinite;
+}
