@@ -4,16 +4,15 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "inputs": [
-        "$TURBO_DEFAULT$",
-        ".env*",
-        "env:MICROCMS_SERVICE_DOMAIN",
-        "env:MICROCMS_API_KEY",
-        "env:MAILGUN_API_KEY",
-        "env:MAILGUN_DOMAIN",
-        "env:MAILGUN_FROM",
-        "env:MAILGUN_TO"
+      "env": [
+        "MICROCMS_SERVICE_DOMAIN",
+        "MICROCMS_API_KEY",
+        "MAILGUN_API_KEY",
+        "MAILGUN_DOMAIN",
+        "MAILGUN_FROM",
+        "MAILGUN_TO"
       ],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [".next/**", "!.next/cache/**", "dist/**"]
     },
     "lint": {
