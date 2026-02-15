@@ -9,8 +9,8 @@ export const SectionTitle = ({
 }: SectionTitleProps) => {
   return (
     <div className={clsx(styles.titleWrapper, className)}>
-      <span className={styles.subTitle}>{subTitle}</span>
-      <h2 className={styles.title}>{title}</h2>
+      {subTitle && <span className={styles.subTitle}>{subTitle}</span>}
+      {title && <h2 className={styles.title}>{title}</h2>}
     </div>
   );
 };
