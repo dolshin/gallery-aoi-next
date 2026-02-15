@@ -1,4 +1,4 @@
-import { PrivacyPolicy } from '@/features/privacy-policy/components/PrivacyPolicy';
+import { PrivacyPolicy } from '@/app/_components';
 import { SpaceRoutes } from '../../_config/routes';
 
 /**

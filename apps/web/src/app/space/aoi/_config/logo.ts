@@ -1,4 +1,4 @@
-import type { LogoProps } from '@/features/logo/Logo';
+import type { LogoProps } from '@/app/_components';
 import { SpaceRoutes } from '../../_config/routes';
 import { AoiAssets } from './asset';
 

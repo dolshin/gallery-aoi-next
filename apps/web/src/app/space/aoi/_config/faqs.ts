@@ -1,4 +1,4 @@
-import type { FaqListItemType } from '@/features/faq/list/item';
+import type { FaqListItemType } from '@/app/_components';
 
 export const FAQs: FaqListItemType[] = [
   {

@@ -3,7 +3,7 @@ import { EventHoldingPeriod } from '../period';
 import type { EventDetailProps } from './EventDetailProps';
 import { LinkButton } from '@/components/Button';
 import { Chip } from '@dolshin/ui';
-import { PageLayout } from '@/features/layouts/components/page/PageLayout';
+import { PageLayout } from '@/app/_components';
 
 export const EventDetail = ({ event }: EventDetailProps) => {
   return (

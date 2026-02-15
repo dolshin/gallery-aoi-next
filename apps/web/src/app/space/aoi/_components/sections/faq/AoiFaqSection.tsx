@@ -1,5 +1,4 @@
-import { FaqList } from '@/features/faq/list';
-import { PageSection } from '@/features/layouts/components/section';
+import { PageSection, FaqList } from '@/app/_components';
 import { FAQs } from '../../../_config/faqs';
 
 export const AoiFaqSection = () => (

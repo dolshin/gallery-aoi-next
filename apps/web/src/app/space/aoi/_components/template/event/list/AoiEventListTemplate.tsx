@@ -1,4 +1,4 @@
-import { PageLayout } from '@/features/layouts/components/page/PageLayout';
+import { PageLayout } from '@/app/_components';
 import { EventCategoryMenu } from '@/features/event/components/menu/category/EventCategoryMenu';
 import { EventArchiveMenu } from '@/features/event/components/menu/archive/EventArchiveMenu';
 import { LinkButton } from '@/components/Button';
