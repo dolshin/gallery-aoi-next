@@ -1,2 +1,2 @@
-export { ContentsWrapper } from './ContentsWrapper';
-export type { ContentsWrapperProps } from './ContentsWrapperProps';
+export { Wrapper } from './Wrapper';
+export type { WrapperProps } from './WrapperProps';

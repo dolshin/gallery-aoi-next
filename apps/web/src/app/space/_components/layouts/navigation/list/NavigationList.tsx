@@ -3,8 +3,8 @@ import * as styles from './NavigationList.css';
 import { NavigationListItem } from './item/NavigationListItem';
 import type { NavigationListProps } from './NavigationList.types';
 import { useNavigationList } from './useNavigationList';
+import { SOCIAL_LINKS } from '@/app/_config/social-links';
 import { SocialLinks } from '@/features/social-link/components';
-import { SOCIAL_LINKS } from '../../../../../_config/social-links';
 import { md } from '@/styles/mediaQuery';
 
 export const NavigationList = ({

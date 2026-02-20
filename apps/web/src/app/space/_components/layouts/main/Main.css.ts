@@ -23,7 +23,6 @@ const MAIN_LAYOUT = {
 export const main = style({
   '@media': {
     [md.up('lg')]: {
-      paddingLeft: MAIN_LAYOUT.paddingLeft.lg,
       width: MAIN_LAYOUT.width.lg,
       margin: MAIN_LAYOUT.margin,
     },

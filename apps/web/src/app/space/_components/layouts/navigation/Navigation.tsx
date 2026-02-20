@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { HambergerMenu } from '../menu/HambergerMenu';
+import { HambergerMenu } from '@/components/HambergerMenu';
 import * as styles from './Navigation.css';
 import { NavigationList } from './list/NavigationList';
 import type { NavigationProps } from './NavigationProps';
