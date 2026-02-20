@@ -1,13 +1,11 @@
-import { AoiMainVisualSlider } from './slider';
-import { Logo } from '@/features/logo/Logo';
-import { SectionBase } from '@/features/layouts/components/section/base';
+﻿import { AoiMainVisualSlider } from './slider';
+import { PageSection } from '@/app/_components';
 import * as styles from './AoiMainVisualSection.css';
-import { AoiLogo } from '../../../_config/logo';
 
 export const AoiMainVisualSection = () => {
   return (
-    <SectionBase id="Top">
-      <Logo {...AoiLogo} className={styles.mainVisualLogo} />
+    <PageSection id="Top" className={styles.section}>
+      {' '}
       <div className={styles.mainVisualWrapper}>
         <h2 className={styles.mainVisualTitle}>
           あなたの作品を輝かせる空間 <br />
@@ -28,6 +26,6 @@ export const AoiMainVisualSection = () => {
           <AoiMainVisualSlider />
         </div>
       </div>
-    </SectionBase>
+    </PageSection>
   );
 };

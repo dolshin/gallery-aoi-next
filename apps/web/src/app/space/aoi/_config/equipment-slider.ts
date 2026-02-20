@@ -1,5 +1,5 @@
 import { AoiAssets } from './asset';
-import type { FigureSliderItemType } from '@/features/slider';
+import type { FigureSliderItemType } from '@/app/_components/slider';
 
 export const AOI_EQUIPMENT_SLIDER_ITEMS: FigureSliderItemType[] = [
   {

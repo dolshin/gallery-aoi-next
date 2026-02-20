@@ -1,4 +1,4 @@
-import { PageLayout } from '@/features/layouts/components/page/PageLayout';
+import { PageLayout } from '@/app/_components';
 import { EventCategoryMenu } from '@/features/event/components/menu/category/EventCategoryMenu';
 import { EventArchiveMenu } from '@/features/event/components/menu/archive/EventArchiveMenu';
 import { LinkButton } from '@/components/Button';
@@ -9,7 +9,7 @@ import {
   fetchAllEventCategories,
   fetchEventArchiveYearMonths,
 } from '@/features/event/lib/microcms/functions';
-import { SpaceRoutes } from '../../../../../_config/routes';
+import { SpaceRoutes } from '@/features/space/config/routes';
 
 /**
  * ギャラリー AOI イベント一覧のページネーション付きテンプレートコンポーネント

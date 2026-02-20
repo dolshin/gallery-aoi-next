@@ -13,10 +13,10 @@ const COLORS = {
 const TYPO = {
   title: {
     fontFamily: "'Montserrat Variable', sans-serif",
-    weight: 500,
+    weight: 400,
     tracking: '0.05em',
     size: {
-      lg: '20px',
+      lg: '21px',
       md: '19px',
       sm: '18px',
       xs: '17px',
@@ -31,7 +31,6 @@ const TYPO = {
   },
   organizer: {
     size: '16px',
-    tracking: '0.22em',
   },
 };
 
@@ -64,7 +63,6 @@ export const link = style({
 export const title = style({
   textAlign: 'left',
   fontSize: TYPO.title.size.lg,
-  fontFamily: TYPO.title.fontFamily,
   fontWeight: TYPO.title.weight,
   margin: SPACING.titleMargin,
   letterSpacing: TYPO.title.tracking,
@@ -109,8 +107,7 @@ export const organizer = style({
   display: 'block',
   lineHeight: 1.5,
   fontSize: TYPO.organizer.size,
-  letterSpacing: TYPO.organizer.tracking,
-  margin: 0,
+  margin: '30px 0 0',
   padding: 0,
   color: COLORS.text,
 });

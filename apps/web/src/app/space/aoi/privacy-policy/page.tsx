@@ -1,5 +1,5 @@
-import { PrivacyPolicy } from '@/features/privacy-policy/components/PrivacyPolicy';
-import { SpaceRoutes } from '../../_config/routes';
+import { PrivacyPolicy } from '@/app/_components';
+import { SpaceRoutes } from '@/features/space/config/routes';
 
 /**
  * ギャラリーアオイのプライバシーポリシーページ

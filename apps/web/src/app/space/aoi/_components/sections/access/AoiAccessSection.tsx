@@ -1,6 +1,6 @@
-import { PageSection } from '@/features/layouts/components/section';
-import { Telephone } from '@/features/access/components/Telephone/Telephone';
-import { GalleryAoiGroupAccessMap } from '@/features/access/components/AccessMap';
+import { PageSection } from '@/app/_components';
+import { Telephone } from '../../../../../_components/access/Telephone/Telephone';
+import { GalleryAoiGroupAccessMap } from '../../../../../_components/access/AccessMap';
 import * as styles from './AoiAccessSection.css';
 import { ParkingSquare } from '@dolshin/icons/ui';
 

@@ -1,4 +1,4 @@
-import { PageSection } from '@/features/layouts/components/section';
+import { PageSection } from '@/app/_components';
 import { EventList } from '@/features/event/components/list/EventList';
 import { LinkButton } from '@/components/Button';
 import { fetchPaginatedEvents } from '@/features/event/lib/microcms/functions';

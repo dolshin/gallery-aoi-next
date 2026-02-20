@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import { Button, Stack } from '@dolshin/ui';
 import { ContactConfirmItem } from '@/features/contact/components';
 import { toContactThanks } from '@/features/contact/actions/toContactThanks';
-import { SpaceRoutes, spaceSectionPath } from '../../../../_config/routes';
+import { SpaceRoutes, spaceSectionPath } from '@/features/space/config/routes';
 import type { AoiContactConfirmProps } from './AoiContactConfirmProps';
 import { LinkButton } from '@/components/Button';
 import type { ContactFormInput } from '@/features/contact/schema';

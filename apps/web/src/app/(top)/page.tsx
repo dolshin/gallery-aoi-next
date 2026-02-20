@@ -1,9 +1,6 @@
-import { HomeHeroSection } from './_components/sections/home/HomeHeroSection';
+import { redirect } from 'next/navigation';
+import { SpaceRoutes } from '@/features/space/config/routes';
 
 export default function Home() {
-  return (
-    <main>
-      <HomeHeroSection />
-    </main>
-  );
+  redirect(SpaceRoutes.aoi);
 }

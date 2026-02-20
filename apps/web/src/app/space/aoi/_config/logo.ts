@@ -1,5 +1,5 @@
-import type { LogoProps } from '@/features/logo/Logo';
-import { SpaceRoutes } from '../../_config/routes';
+import type { LogoProps } from '@/app/_components';
+import { SpaceRoutes } from '@/features/space/config/routes';
 import { AoiAssets } from './asset';
 
 export const AoiLogo: LogoProps = {

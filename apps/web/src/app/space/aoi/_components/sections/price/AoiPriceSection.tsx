@@ -1,4 +1,4 @@
-import { PageSection } from '@/features/layouts/components/section';
+import { PageSection } from '@/app/_components';
 import { AoiPriceTable } from './AoiPriceTable';
 
 export const AoiPriceSection = () => {

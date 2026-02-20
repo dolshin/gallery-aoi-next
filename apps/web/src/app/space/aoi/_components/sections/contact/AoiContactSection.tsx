@@ -1,7 +1,7 @@
 import { Container } from '@dolshin/ui';
 import { AoiContactForm } from '../../contact/Contact/AoiContactForm';
-import { PageSection } from '@/features/layouts/components/section';
-import { PrivacyPolicyLink } from '@/features/privacy-policy/components/PrivacyPolicyLink';
+import { PageSection } from '@/app/_components';
+import { PrivacyPolicyLink } from '@/app/_components';
 import type { ContactFormInput } from '@/features/contact/schema';
 import { confirmCookieStore } from '@/features/contact/cookie';
 

@@ -52,8 +52,8 @@ export const AoiFacilityInformation = () => {
         <NextImage
           src={AoiAssets.sketch}
           alt="ギャラリー見取り図"
-          width={520}
-          height={440}
+          width={500}
+          height={389}
           className={styles.wrapper}
         />
       </div>

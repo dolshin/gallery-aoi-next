@@ -1,4 +1,4 @@
-import { PageSection } from '@/features/layouts/components/section';
+import { PageSection } from '@/app/_components';
 import { AoiFacilityInformation } from './information';
 import { AoiEquipmentList } from './equipment';
 import { AoiEquipmentSlider } from './slider';

@@ -4,7 +4,7 @@ import { EventHoldingPeriod } from '../../period/EventHoldingPeriod';
 import { MicroCMSImage } from '@/components/Image/microCMS/MicroCMSImage';
 import type { EventListItemProps } from './EventListItemProps';
 import * as styles from './EventListItem.css';
-import { useSpaceTopPath } from '../../../../../app/space/_routing/useSpacePath';
+import { useSpaceTopPath } from '@/features/space/hooks/useSpacePath';
 
 export const EventListItem = ({ event }: EventListItemProps) => {
   const spaceTopPath = useSpaceTopPath();
@@ -19,8 +19,6 @@ export const EventListItem = ({ event }: EventListItemProps) => {
             display: 'flex',
             columnGap: '32px',
             flexWrap: 'wrap',
-            //alignItems: "center",
-            //justifyContent: "space-between",
             padding: '1.4em 0 1.4em 1.2em',
           }}
         >

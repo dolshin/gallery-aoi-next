@@ -5,7 +5,7 @@ import { useRef } from 'react';
 import { PortalRootProvider } from '@dolshin/ui';
 import { SpaceLayout } from '../layout';
 import type { SpaceClientShellProps } from './SpaceClientShellProps';
-import { SpaceProvider } from '../../../_providers/SpaceProvider';
+import { SpaceProvider } from '@/features/space/providers';
 
 /**
  * スペースクライアントシェルコンポーネント

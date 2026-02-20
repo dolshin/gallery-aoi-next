@@ -5,7 +5,7 @@ import { md } from '@/styles/mediaQuery';
  * 仮トークン（後で spacing / layout / color tokens に昇格）
  */
 const SIDEBAR = {
-  width: '300px',
+  width: '200px',
   zIndex: 9999,
 };
 
@@ -15,8 +15,8 @@ const LOGO_POSITION = {
     left: '68px',
   },
   sm: {
-    top: '24px',
-    left: 'clamp(10px, 3.5vw, 30px)',
+    top: '35px',
+    left: '4%',
   },
 };
 
@@ -52,7 +52,6 @@ export const logoPlacement = style({
       top: LOGO_POSITION.sm.top,
       left: LOGO_POSITION.sm.left,
       margin: 0,
-      display: 'none',
     },
   },
 });

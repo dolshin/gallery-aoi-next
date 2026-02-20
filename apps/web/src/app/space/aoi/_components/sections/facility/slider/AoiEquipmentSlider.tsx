@@ -1,5 +1,5 @@
 import type { Settings } from 'react-slick';
-import { FigureSlider } from '@/features/slider';
+import { FigureSlider } from '@/app/_components/slider';
 import { AOI_EQUIPMENT_SLIDER_ITEMS } from '../../../../_config/equipment-slider';
 import * as styles from './AoiEquipmentSlider.css';
 
