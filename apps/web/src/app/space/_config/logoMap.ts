@@ -1,4 +1,4 @@
-import type { SpaceId } from './spaces';
+import type { SpaceId } from '@/features/space/config';
 import { AoiLogo } from '../aoi/_config/logo';
 import type { LogoProps } from '@/app/_components';
 

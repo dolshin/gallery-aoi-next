@@ -1,5 +1,5 @@
 import { useRouter } from 'next/navigation';
-import { getSpaceTopPath } from '../../../../app/space/_routing/spaceRoutes';
+import { getSpaceTopPath } from '@/features/space/config/routes';
 
 export const usePaginatedEventList = () => {
   const router = useRouter();

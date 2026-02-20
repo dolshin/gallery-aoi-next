@@ -1,4 +1,4 @@
-import type { SpaceId } from '../../../_config';
+import type { SpaceId } from '@/features/space/config';
 
 export type SpaceClientShellProps = {
   spaceId: SpaceId;

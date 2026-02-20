@@ -2,7 +2,7 @@ import { Logo } from '@/app/_components';
 import { Navigation } from '../navigation';
 import * as styles from './Sidebar.css';
 import { useSidebar } from './useSidebar';
-import { useSpaceId } from '../../../_providers/SpaceProvider';
+import { useSpaceId } from '@/features/space/providers/SpaceProvider';
 
 export const Sidebar = () => {
   const spaceId = useSpaceId();

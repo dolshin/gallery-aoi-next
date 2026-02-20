@@ -1,5 +1,5 @@
-import { type Site, SITE } from '../../../app/_config/site';
-import { getSiteTopPath } from '../../../app/_routing/siteRoutes';
+import { type Site, SITE } from '../../site/config/site';
+import { getSiteTopPath } from '../../site/config';
 
 export function getContactConfirmRoute(site: Site) {
   const SITE_TOP_PATH = getSiteTopPath(site);

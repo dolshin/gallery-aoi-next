@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import * as styles from './PrivacyPolicyLink.css';
 import type { PrivacyPolicyLinkProps } from './PrivacyPolicyLinkProps';
-import { getSpaceTopPath } from '../../../../app/space/_routing/spaceRoutes';
+import { getSpaceTopPath } from '@/features/space/config/routes';
 
 export const PrivacyPolicyLink = ({ spaceId }: PrivacyPolicyLinkProps) => {
   return (

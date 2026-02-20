@@ -1,5 +1,5 @@
 import * as z from 'zod';
-import { SITE_VALUES } from '../../../app/_config/site';
+import { SITE_VALUES } from '../../site/config/site';
 
 export const ContactFormSchema = z.object({
   name: z

@@ -9,7 +9,7 @@ import {
   fetchAllEventCategories,
   fetchEventArchiveYearMonths,
 } from '@/features/event/lib/microcms/functions';
-import { SpaceRoutes } from '../../../../../_config/routes';
+import { SpaceRoutes } from '@/features/space/config/routes';
 
 /**
  * ギャラリー AOI イベント一覧のページネーション付きテンプレートコンポーネント

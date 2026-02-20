@@ -3,7 +3,7 @@ import * as styles from './NavigationList.css';
 import { NavigationListItem } from './item/NavigationListItem';
 import type { NavigationListProps } from './NavigationList.types';
 import { useNavigationList } from './useNavigationList';
-import { SOCIAL_LINKS } from '@/app/_config/social-links';
+import { SOCIAL_LINKS } from '@/features/social-link/config/social-links';
 import { SocialLinks } from '@/features/social-link/components';
 import { md } from '@/styles/mediaQuery';
 
