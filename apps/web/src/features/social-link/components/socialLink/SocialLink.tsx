@@ -1,4 +1,4 @@
-import { SOCIAL_LINKS } from '../../config/socialLink';
+import { SOCIAL_LINKS } from '../../config/constants';
 import type { SocialLinkProps } from './SocialLinkProps';
 import * as styles from './SocialLink.css';
 
@@ -18,14 +18,16 @@ export const SocialLink = ({
     : `${social.baseUrl}${usernameOrUrl}`;
 
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label={social.label}
-      className={styles.socialLink}
-    >
-      <Icon size={size} />
-    </a>
+    <li>
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={social.label}
+        className={styles.socialLink}
+      >
+        <Icon size={size} />
+      </a>
+    </li>
   );
 };
