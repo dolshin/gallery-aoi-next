@@ -1,0 +1,1 @@
+export { AoiEquipmentList } from './AoiEquipmentList';

@@ -1,0 +1,1 @@
+export { AoiEquipmentSlider } from './AoiEquipmentSlider';

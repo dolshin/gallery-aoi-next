@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+pnpm-debug.log*
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =====================================
+# Build outputs (UI package artifacts)
+# =====================================
+
+# tsup / tsdown / rollup / vanilla-extract build outputs
+dist
+dist-ssr
+
+
+# =====================================
+# TypeScript
+# =====================================
+
+# TypeScript incremental / project references cache
+*.tsbuildinfo
+
+
+# =====================================
+# Bundler / Dev cache
+# =====================================
+
+# Vite cache (used by Storybook / dev servers)
+.vite
+.vite-cache
+
+# =====================================
+# Test / Coverage
+# =====================================
+
+# Coverage reports (Vitest / Jest etc.)
+coverage

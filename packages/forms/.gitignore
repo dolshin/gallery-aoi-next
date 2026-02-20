@@ -1,0 +1,25 @@
+# Logs
+logs
+*.log
+pnpm-debug.log*
+node_modules
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =====================================
+# Build outputs (UI package artifacts)
+# =====================================
+
+# tsup / tsdown / rollup / vanilla-extract build outputs
+dist
+dist-ssr

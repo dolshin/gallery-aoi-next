@@ -1,0 +1,27 @@
+{
+  "name": "@dolshin/design-token",
+  "version": "0.0.0",
+  "description": "This package contains design tokens for consistent styling across the project.",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "import": "./dist/defaultThemeValues.js",
+      "types": "./dist/defaultThemeValues.d.ts",
+      "default": "./dist/defaultThemeValues.js"
+    }
+  },
+  "main": "./dist/defaultThemeValues.js",
+  "types": "./dist/defaultThemeValues.d.ts",
+  "scripts": {
+    "build": "pnpm run build:sd && pnpm run build:ts",
+    "build:ts": "tsc -p tsconfig.build.json",
+    "build:sd": "npx tsx src/sd/build.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.8",
+    "style-dictionary": "^5.1.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

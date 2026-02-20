@@ -1,0 +1,13 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* ルートのベース */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  isolation: isolate; /* z-indexコンテキストの安定化 */
+}

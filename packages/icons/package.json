@@ -1,0 +1,40 @@
+{
+  "name": "@dolshin/icons",
+  "version": "0.0.0",
+  "description": "This package provides a collection of icons for use in the dolshin UI library.",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./brands": {
+      "types": "./dist/brands/index.d.ts",
+      "import": "./dist/brands/index.js",
+      "default": "./dist/brands/index.js"
+    },
+    "./ui": {
+      "types": "./dist/ui/index.d.ts",
+      "import": "./dist/ui/index.js",
+      "default": "./dist/ui/index.js"
+    }
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0 ",
+    "react-dom": "^19.0.0 "
+  },
+  "dependencies": {
+    "@icons-pack/react-simple-icons": "^13.8.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.553.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
