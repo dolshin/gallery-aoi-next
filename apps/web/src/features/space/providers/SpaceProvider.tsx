@@ -1,5 +1,5 @@
 'use client';
-import type { SpaceId } from '../_config';
+import type { SpaceId } from '../config';
 import { createContext, useContext } from 'react';
 
 const SpaceContext = createContext<SpaceId | null>(null);

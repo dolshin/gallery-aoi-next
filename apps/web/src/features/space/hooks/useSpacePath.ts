@@ -1,7 +1,7 @@
 'use client';
 
-import { useSpaceId } from '../_providers/SpaceProvider';
-import { getSpaceTopPath } from './spaceRoutes';
+import { useSpaceId } from '../providers/SpaceProvider';
+import { getSpaceTopPath } from '../config/routes';
 
 export const useSpaceTopPath = () => {
   const spaceId = useSpaceId();
