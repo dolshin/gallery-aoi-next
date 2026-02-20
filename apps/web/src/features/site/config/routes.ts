@@ -1,5 +1,5 @@
-import type { Site } from '../_config/site';
-import { getSpaceTopPath } from '../space/_routing/spaceRoutes';
+import type { Site } from './site';
+import { getSpaceTopPath } from '../../space/config/routes';
 
 export const getSiteTopPath = (site: Site) => {
   switch (site) {
