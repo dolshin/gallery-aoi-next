@@ -1,4 +1,4 @@
-import type { SocialLinkItem } from '@/features/social-link/components';
+import type { SocialLinkItem } from '../components';
 
 export const SOCIAL_LINKS: SocialLinkItem[] = [
   {
