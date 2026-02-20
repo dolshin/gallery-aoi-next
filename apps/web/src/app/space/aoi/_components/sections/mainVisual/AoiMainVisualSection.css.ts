@@ -1,19 +1,10 @@
-import { style } from '@vanilla-extract/css';
+﻿import { style } from '@vanilla-extract/css';
 import { md } from '@/styles/mediaQuery';
 
 /** Tokens（仮：後で design tokens に昇格）*/
 
 const MAIN_VISUAL = {
-  padding: {
-    desktop: '130px 0 0',
-    mobile: '150px 0 0',
-  },
   zIndex: 1,
-};
-
-const LOGO = {
-  top: '35px',
-  left: '4%',
 };
 
 const TITLE = {
@@ -34,6 +25,16 @@ const SLIDER = {
   },
 };
 
+/** Section */
+
+export const section = style({
+  padding: 0,
+  '@media': {
+    [md.up('lg')]: { marginTop: '80px' },
+    [md.down('lg')]: { marginTop: '130px' },
+  },
+});
+
 /** MainVisual Wrapper*/
 
 export const mainVisualWrapper = style({
@@ -41,29 +42,7 @@ export const mainVisualWrapper = style({
 
   '@media': {
     [md.up('lg')]: {
-      padding: MAIN_VISUAL.padding.desktop,
       zIndex: MAIN_VISUAL.zIndex,
-    },
-
-    [md.down('lg')]: {
-      padding: MAIN_VISUAL.padding.mobile,
-    },
-  },
-});
-
-/** Logo（SP only）*/
-
-export const mainVisualLogo = style({
-  '@media': {
-    [md.up('lg')]: {
-      display: 'none',
-    },
-
-    [md.down('lg')]: {
-      position: 'absolute',
-      top: LOGO.top,
-      left: LOGO.left,
-      margin: 0,
     },
   },
 });
@@ -77,7 +56,7 @@ export const mainVisualTitle = style({
 
   '@media': {
     [md.up('lg')]: {
-      fontSize: 'clamp(31px, 3.2vw, 50px)',
+      fontSize: 'clamp(31px, 3.5vw, 50px)',
       letterSpacing: '0.1em',
     },
 
