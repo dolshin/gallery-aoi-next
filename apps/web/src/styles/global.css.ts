@@ -21,7 +21,7 @@ globalStyle('ul', {
 });
 
 globalStyle('li', {
-  // listStyle: 'none',
+  listStyle: 'none',
 });
 
 globalStyle('p', {
