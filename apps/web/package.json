@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@aoi/utils": "workspace:*",
-    "@conform-to/react": "^1.15.1",
-    "@conform-to/zod": "^1.15.1",
+    "@conform-to/react": "^1.19.4",
+    "@conform-to/zod": "^1.19.4",
     "@dolshin/forms": "workspace:*",
     "@dolshin/icons": "workspace:*",
     "@dolshin/theme-contract": "workspace:*",
@@ -24,14 +24,14 @@
     "dotenv": "^16.5.0",
     "lenis": "^1.3.16",
     "microcms-js-sdk": "^3.2.0",
-    "next": "16.0.10",
+    "next": "16.4.3",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-slick": "^0.30.3",
     "sanitize.css": "^13.0.0",
     "server-only": "^0.0.1",
     "slick-carousel": "^1.8.1",
-    "zod": "^3.25.64"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@types/node": "^20",
