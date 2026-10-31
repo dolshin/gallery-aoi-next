@@ -2,7 +2,7 @@
 
 import { useActionState } from 'react';
 import { useForm } from '@conform-to/react';
-import { parseWithZod } from '@conform-to/zod';
+import { parseWithZod } from '@conform-to/zod/v4';
 import { Button, Stack, usePortalRootRef } from '@dolshin/ui';
 import { SelectField, TextAreaField, TextField } from '@dolshin/forms/conform';
 import { ContactFormSchema } from '@/features/contact/schema';

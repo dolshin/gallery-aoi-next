@@ -1,4 +1,4 @@
-import * as z from 'zod';
+import * as z from 'zod/v4';
 import { SITE_VALUES } from '../../site/config/site';
 
 export const ContactFormSchema = z.object({
