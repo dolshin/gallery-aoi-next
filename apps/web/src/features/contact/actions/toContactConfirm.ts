@@ -1,7 +1,7 @@
 'use server';
 
 import { redirect } from 'next/navigation';
-import { parseWithZod } from '@conform-to/zod';
+import { parseWithZod } from '@conform-to/zod/v4';
 import { ContactFormSchema } from '../schema';
 import { confirmCookieStore } from '../cookie';
 import { getContactConfirmRoute } from '../routes/functions';
